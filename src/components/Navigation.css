@@ -1,0 +1,65 @@
+
+ul {
+    list-style-type: none;
+    margin: none;
+    padding: none;
+    overflow: hidden;
+    background-color: brown;
+    color: azure;
+}
+li {
+    float: left;
+}
+li>a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+li a:hover:not(.active){
+    background-color: blanchedalmond;
+}
+.active {
+    background-color: blue;
+}
+
+
+
+.nav>ul {
+    list-style: none;
+    display: flex;
+   
+    
+}
+
+li{
+    width: 20%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.nav{
+    background-color: blanchedalmond;
+}
+
+/* a:hover {
+    background-color: black;
+} */
+header {
+    height: 100px;
+    vertical-align: middle;
+
+}
+h3 {
+    margin: 0%;
+    
+}
+#space {
+    height: 40px;
+}
